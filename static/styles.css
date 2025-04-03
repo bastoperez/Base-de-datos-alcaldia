@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("fondo.png");
+    background-size: cover;
+    text-align: center;
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.form-group label {
+    width: 100px; /* Ajusta según el diseño */
+    text-align: right;
+    margin-right: 5px;
+}
+
+.form-group input, .form-group select {
+    flex: 1;
+    padding: 5px;
+    width: 50%; /* Reduce el tamaño al 50% */
+    max-width: 200px; /* Puedes ajustar este valor según el diseño */
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+#oficina {
+    width: 50%;
+    max-width: 200px; /* Ajusta el tamaño máximo */
+}
+
+.top-left-image {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 184px; /* Aumentado un 30% desde 80px */
+    height: auto;
+    z-index: 1000;
+    background: none;
+}
+
+
+button {
+    padding: 10px 15px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+.logo, .top-left-image {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
